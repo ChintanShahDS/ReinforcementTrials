@@ -22,7 +22,7 @@
   - Qt(s, a) = Qt-1(s, a) + alpha ( R(s, a, s') + gamma max_a' Q(s', a') - Qt-1(s, a) )
 
 ## Explanation of the methods
-- "__init__"
+- __init__
   -	Here we initialize the variables to an empty dictionary which is of type Counter
 - getQValue
   - This is to give back the current QValue based on the state and action Q(s,a)
