@@ -48,3 +48,8 @@
     - # Qt(s, a) = Qt-1(s, a) + alpha ( R(s, a, s') + gamma max_a' Q(s', a') - Qt-1(s, a) )
   - This is internally called by the environment during each transition of the state that is determined based on the earlier getAction method.
   - This takes in inputs of current state, nextstate, action taken and the reward to make this determination
+
+
+ ## Output
+ ![image](https://github.com/user-attachments/assets/59bb773b-8cfa-4d42-b95f-fad58f33339a)
+
